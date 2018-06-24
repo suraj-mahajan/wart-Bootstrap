@@ -1,0 +1,508 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/patternfly.min.css" rel="stylesheet" />
+    <link href="css/patternfly-additions.min.css" rel="stylesheet" />
+    <link href="css/file-explore.css" rel="stylesheet" />
+    <link href="css/jquery.splitter.css" rel="stylesheet" />
+    <link href="css/wart.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-pf-vertical">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>-->
+                    <a class="navbar-brand" href="#">Wart</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+                        <li><a href="../navbar-static-top/">Static top</a></li>
+                        <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+        </nav>
+
+
+        <nav class="navbar navbar-second">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                    </div> 
+                </div>
+            </div>
+        </nav>
+</div>
+    <div class="container workground">
+        <div class="display-table">
+            <div class="pad">
+                
+            </div>
+            <div class="content">
+                <div class="row full-height no-padding" id="splitter-container2">
+                    <div class="left" >
+                        <div class="menu">
+
+
+                            <div class="col-md-12 full-height no-padding no-margin">
+
+
+                                <div class="full-height">
+                                    <h2 class="no-margin no-padding">
+                                        Tree
+                                    </h2>
+                                    <div class="">
+                                        <ul class="file-tree">
+                                            <li>
+                                                <a href="#">US</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">New York</a>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="#">Corporation</a>
+                                                                <ul>
+                                                                    <li> <a href="#link5">Link 5</a> </li>
+                                                                    <li> <a href="#link6">Link 6</a> </li>
+                                                                    <li> <a href="#link7">Link 7</a> </li>
+                                                                    <li> <a href="#link8">Link 8</a> </li>
+                                                                    <li>
+                                                                        <a href="#">Deeper</a>
+                                                                        <ul>
+                                                                            <li><a href="#">Link 1</a> </li>
+                                                                            <li><a href="#">Link 2</a> </li>
+                                                                            <li><a href="#">Link 3</a> </li>
+                                                                            <li><a href="#">Link 4</a> </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">LLC</a>
+                                                                <ul>
+                                                                    <li> <a href="#link5">Link 5</a> </li>
+                                                                    <li> <a href="#link6">Link 6</a> </li>
+                                                                    <li> <a href="#link7">Link 7</a> </li>
+                                                                    <li> <a href="#link8">Link 8</a> </li>
+                                                                    <li>
+                                                                        <a href="#">Deeper</a>
+                                                                        <ul>
+                                                                            <li><a href="#">Link 1</a> </li>
+                                                                            <li><a href="#">Link 2</a> </li>
+                                                                            <li><a href="#">Link 3</a> </li>
+                                                                            <li><a href="#">Link 4</a> </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#link2">Link 2</a> </li>
+                                                    <li><a href="#link3">Link 3</a> </li>
+                                                    <li><a href="#link4">Link 4</a> </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Canada</a>
+                                                <ul>
+                                                    <li><a href="#">Link 1</a> </li>
+                                                    <li><a href="#">Link 2</a> </li>
+                                                    <li><a href="#">Link 3</a> </li>
+                                                    <li><a href="#">Link 4</a> </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right" id="splitRight">
+                        <ul class="nav nav-tabs pagetabs">
+                            <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                            <li><a data-toggle="tab" href="#menu1">Form</a></li>
+                            <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                                <div class="tab-container">
+                                    
+                                    <table class="table table-striped table-bordered table-hover  table-stripped ">
+                                        <thead>
+                                            <tr>
+                                                <th>Rendering engine</th>
+                                                <th>Browser</th>
+                                                <th>Platform(s)</th>
+                                                <th>Engine version</th>
+                                                <th>CSS grade</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="active">
+                                                <td>Trident</td>
+                                                <td>Internet Explorer 4.0</td>
+                                                <td>Win 95+</td>
+                                                <td class="text-center">4</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">X</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-pencil"></span>
+                                                    </button>
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-remove"></span>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trident</td>
+                                                <td>Internet Explorer 4.0</td>
+                                                <td>Win 95+</td>
+                                                <td class="text-center">4</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">X</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-pencil"></span>
+                                                    </button>
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-remove"></span>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trident</td>
+                                                <td>Internet Explorer 4.0</td>
+                                                <td>Win 95+</td>
+                                                <td class="text-center">4</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">X</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-pencil"></span>
+                                                    </button>
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-remove"></span>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trident</td>
+                                                <td>Internet Explorer 4.0</td>
+                                                <td>Win 95+</td>
+                                                <td class="text-center">4</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">X</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-pencil"></span>
+                                                    </button>
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-remove"></span>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trident</td>
+                                                <td>Internet Explorer 4.0</td>
+                                                <td>Win 95+</td>
+                                                <td class="text-center">4</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">X</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-pencil"></span>
+                                                    </button>
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-remove"></span>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trident</td>
+                                                <td>Internet Explorer 4.0</td>
+                                                <td>Win 95+</td>
+                                                <td class="text-center">4</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">X</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-pencil"></span>
+                                                    </button>
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-remove"></span>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trident</td>
+                                                <td>Internet Explorer 4.0</td>
+                                                <td>Win 95+</td>
+                                                <td class="text-center">4</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">X</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-pencil"></span>
+                                                    </button>
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-remove"></span>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trident</td>
+                                                <td>Internet Explorer 4.0</td>
+                                                <td>Win 95+</td>
+                                                <td class="text-center">4</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">X</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-pencil"></span>
+                                                    </button>
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-remove"></span>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trident</td>
+                                                <td>Internet Explorer 4.0</td>
+                                                <td>Win 95+</td>
+                                                <td class="text-center">4</td>
+                                                <td class="text-center">
+                                                    d
+                                                    <span class="label label-primary">X</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-pencil"></span>
+                                                    </button>
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-remove"></span>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trident</td>
+                                                <td>Internet Explorer 4.0</td>
+                                                <td>Win 95+</td>
+                                                <td class="text-center">4</td>
+                                                <td class="text-center">
+                                                    <span class="label label-primary">X</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-pencil"></span>
+                                                    </button>
+                                                    <button class="btn btn-default btn-sm" type="button">
+                                                        <span class="glyphicon glyphicon-remove"></span>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                                <div class="tab-container">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            Form Example
+                                        </div>
+                                        <div class="panel-body">
+                                            <form class="form-horizontal">
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="email">Email:</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="pwd">Password:</label>
+                                                    <div class="col-sm-10">
+                                                        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="pwd">User Name:</label>
+                                                    <div class="col-sm-10">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="basic-addon1">@</span>
+                                                            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="pwd">Url:</label>
+                                                    <div class="col-sm-10">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>
+                                                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="pwd">Email Id:</label>
+                                                    <div class="col-sm-10">
+                                                        <div class="input-group">
+                                                            <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+                                                            <span class="input-group-addon" id="basic-addon2">@example.com</span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="pwd">Amount:</label>
+                                                    <div class="col-sm-10">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">$</span>
+                                                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                                            <span class="input-group-addon">.00</span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="pwd">Select Type:</label>
+                                                    <div class="col-sm-10">
+                                                        <select class="form-control">
+                                                            <option></option>
+                                                            <option>One</option>
+                                                            <option>Two</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <div class="col-sm-offset-2 col-sm-10">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox"> Remember me
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-sm-offset-2 col-sm-10">
+                                                        <button type="submit" class="btn btn-default">Submit</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="menu2" class="tab-pane fade">
+                                <h3>Menu 2</h3>
+                                <p>Some content in menu 2.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/file-explore.js"></script>
+    <script src="js/jQuery.splitter.js"></script>
+    <script>
+        (function ($) {
+            function init() {
+                
+            }
+
+            window.onload = init();
+        })(jQuery);
+
+
+        $(document).ready(function () {
+            $(".file-tree").filetree({
+                collapsed: true,
+            });
+
+            $('#splitter-container2').SplitterBar();
+            setHeight();
+
+            $('.table').on('click', 'tr', function (event) {
+                if ($(this).hasClass('active')) {
+                    $(this).removeClass('active');
+                } else {
+                    $(this).addClass('active').siblings().removeClass('active');
+                }
+            });
+        });
+
+        $(window).resize(function () {
+            setHeight();
+        });
+
+
+        function setHeight()
+        {
+            $('.menu').height( $('#splitter-container2').height())
+            //$('.menu').height(100)
+        }
+    </script>
+</body>
+</html>

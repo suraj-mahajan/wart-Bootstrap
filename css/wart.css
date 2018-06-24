@@ -1,0 +1,253 @@
+﻿
+
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    display: table-row;
+}
+
+    .container > .navbar {
+        padding: 0px;
+        min-height: 0px;
+    }
+
+.navbar-nav > li > a {
+    padding: 5px 10px 5px 10px;
+}
+
+.navbar-pf-vertical .navbar-brand {
+    padding: 5px;
+}
+
+.navbar-pf-vertical {
+    background-color: #393f44;
+}
+
+.nav > a {
+    color: #efefef;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: transparent;
+    color: #39a5dc;
+}
+
+ul.nav > li > a {
+    border-left: 1px solid #53575C;
+}
+
+.navbar > .container-fluid .navbar-brand {
+    min-height: 0px;
+}
+
+.container > .navbar-second {
+    /*background-color:#484c51;*/
+    background: linear-gradient(#53575C, #3D4247);
+    padding: 7px;
+    margin: 0px;
+    border-radius: 0;
+    /*border-top:1px solid #53575C;*/
+}
+
+.workground {
+    background-color: #5B5C5E;
+    height: 100%;
+    border-top: 1px solid #292E34;
+}
+
+.display-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.pad {
+    height: 30px;
+    display: table-row;
+    width: 100%;
+}
+
+    .pad::before, .content:before {
+    }
+
+.content {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: table-row;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.full-height {
+    height: 100%;
+}
+
+
+.vsplitbar {
+    width: 4px;
+    background: red;
+}
+
+.left {
+}
+
+.menu {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.no-margin {
+    margin: 0px !important;
+}
+ul.nav > li > a {
+    color:#D4D4D4;
+}
+
+.pagetabs {
+    margin-top: -28px;
+}
+
+ul.pagetabs > li > a {
+    color:#666666;
+}
+
+    .pagetabs > li > a {
+        background: linear-gradient(#EDEDED, #D4D4D4);
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 3px 3px 0px 0px;
+        border-top: 1px solid white;
+        margin-right:3px;
+    }
+
+        .pagetabs > li > a:focus, .pagetabs > li > a:hover {
+            background: linear-gradient(#EDEDED, #C2C0C0);
+            color: #252525;
+        }
+
+    .pagetabs > li > a {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+.pagetabs {
+    border-bottom: 0;
+}
+
+    .pagetabs > li.active > a {
+        background: #fff;
+    }
+
+    /*.pagetabs > li.active::before {
+        border-bottom-color: green;
+    border-width: 9px;
+    margin-left: -9px;
+    z-index: 1;
+
+    bottom: 0%;
+    margin-bottom: -2px;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    }
+
+    .pagetabs > li.active::after 
+    {
+    
+        border-bottom-color: #fff;
+    border-width: 6px;
+    margin-left: -6px;
+    z-index: 1;
+
+        bottom: 0%;
+    margin-bottom: -2px;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    }*/
+
+
+    .pagetabs {
+  
+}
+
+.pagetabs li.active:after, .pagetabs li.active:before {
+	bottom: 0%;
+    margin-bottom: -2px;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+    top:100%;
+}
+
+.pagetabs li.active:after {
+	border-top-color: #fff;
+	border-width: 7px;
+	margin-left: -7px;
+    z-index: 1;
+    
+}
+.pagetabs li.active:before {
+	border-top-color: #5B5C5E;
+	border-width: 9px;
+	margin-left: -9px;
+    z-index: 1;
+}
+.tab-container {
+    padding:10px;
+    padding-top:15px;
+}
+.table > tbody > tr {
+    cursor:pointer;
+}
+    .table > tbody > tr.active > td {
+        background-color:#407694;
+        color:white;
+    }
+        .table-hover>tbody>tr.active:hover>td {
+        background-color:#2d6280;    
+        }
+.form-horizontal .form-group {
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.panel-default>.panel-heading {
+    background: linear-gradient(#EDEDED, #D4D4D4);
+}
+.panel-default > .panel-body {
+    background-color: #e7ebef;
+}
